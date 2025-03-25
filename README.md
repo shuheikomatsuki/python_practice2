@@ -23,13 +23,13 @@
 
 1.  **サーバの起動:**
     ```bash
-    python server_pra.py
+    python3 server_pra.py
     ```
     サーバは `/tmp/socket_file` に UNIX ソケットを作成し、接続を待ち受けます。
 
 2.  **クライアントの起動:**
     ```bash
-    python client_pra.py
+    python3 client_pra.py
     ```
     クライアントはサーバに接続し、メッセージを送信し、サーバからの応答を表示します。複数のクライアントを同時に起動して、チャットをシミュレートできます。
 
